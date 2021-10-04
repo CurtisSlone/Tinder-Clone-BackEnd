@@ -1,0 +1,27 @@
+{
+  "name": "dating-app-backend",
+  "version": "1.0.0",
+  "description": "Dating app backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CurtisSlone/Tinder-Clone-Backend.git"
+  },
+  "author": "Curtis Slone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CurtisSlone/Tinder-Clone-Backend/issues"
+  },
+  "homepage": "https://github.com/CurtisSlone/Tinder-Clone-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "nodemon": "^2.0.13"
+  }
+}
